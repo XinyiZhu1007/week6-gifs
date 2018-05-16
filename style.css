@@ -1,0 +1,29 @@
+body{
+    padding: 3%
+}
+
+#buttons{
+    position: relative;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}
+
+#gifs{
+    order: 1;
+    flex-grow: 3;
+}
+
+#search-box{
+    order: 2;
+    flex-grow: 1;
+}
+
+.hero{
+    margin-left: 2%;
+}
+
