@@ -5,25 +5,41 @@ body{
 #buttons{
     position: relative;
     width: 100%;
+    margin-bottom: 8%;
 }
 
 .container{
     display: flex;
     flex-direction: row;
-    width: 100%
+    width: 100%;
 }
 
-#gifs{
-    order: 1;
-    flex-grow: 3;
+#contents{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 70%;
+    flex-wrap: wrap;
+    order: 1; 
 }
 
 #search-box{
     order: 2;
-    flex-grow: 1;
+    width: 30%;
 }
 
-.hero{
+.hero-button{
     margin-left: 2%;
 }
 
+.pic{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+#add-form{
+    padding-left: 10%
+}
