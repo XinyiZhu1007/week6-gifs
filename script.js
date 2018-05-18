@@ -21,7 +21,7 @@ function addGIFs() {
     name = name.replace(/\s/g, '+')
     console.log(name);
     
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + name + "&api_key=3mLraQcTL6rFJinJ2R3iiIMHHPNdbvbu&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + name + "&api_key=3mLraQcTL6rFJinJ2R3iiIMHHPNdbvbu&limit=10";
 
     console.log(queryURL);
 
